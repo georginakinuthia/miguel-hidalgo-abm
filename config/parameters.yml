@@ -1,0 +1,13 @@
+study_area:
+  name: "Miguel Hidalgo"
+  boundary_file: "mH outline.gpkg"
+  crs: "EPSG:6372"
+
+simulation:
+  agents: 120
+  time_steps: 1440
+  origin: "Metro Tacubaya CETRAM"
+
+routing:
+  distance_weight: 1.0
+  crime_exposure_penalty: 2.5
